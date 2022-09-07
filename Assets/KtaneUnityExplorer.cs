@@ -106,7 +106,8 @@ public class KtaneUnityExplorer : MonoBehaviour
             
             Instance = ExplorerStandalone.CreateInstance((msg, logType) =>
             {
-                Debug.unityLogger.LogFormat(logType, "[Unity Explorer] {0}", msg);
+                if(!msg.StartsWith("[Unity] "))
+                    Debug.unityLogger.LogFormat(logType, "[Unity Explorer] {0}", msg);
             });
         }
     }
