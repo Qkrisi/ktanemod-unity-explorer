@@ -44,7 +44,7 @@ MonoBehaviour:
 
     To open the explorer, press F11 anywhere in the game (F12 for old versions/configurations
     of the mod), can be changed in the options menu.'
-  version: 1.0.3
+  version: 1.0.4
   outputFolder: /home/qkrisi/.steam/steam/steamapps/common/Keep Talking and Nobody
     Explodes/mods
   previewImage: {fileID: 2800000, guid: 02ec5282975f040248c5072e47a1a45f, type: 3}
